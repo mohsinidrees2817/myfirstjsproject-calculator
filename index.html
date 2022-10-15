@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="background">
+        <div class="content-area">
+            <div class="col-1">
+                <button class="change-mode" id="mode"><img src="mode.png" alt="img"></button>
+                <img src="Vector.png" class="history">
+                <div class="top-area">
+                    <div class="text-area">
+                        <input disabled type="text" id="prev-input">
+                        <input disabled type="text" id="prev-output">
+                    </div>
+                    <div class="text-area">
+                        <input disabled type="text" id="prev-input1">
+                        <input disabled type="text" id="prev-output1">
+                    </div>
+                </div>
+                <div class="bottom-area">
+                    <div class="text-area">
+                        <input disabled type="text" id="user-input" class="user-inputt">
+                        <input disabled type="text" id="main-output">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <div class="row1" id="rows">
+                <button class="btn first3-btn" id="Acbtn">AC</button>
+                <button class="btn first3-btn" id="plus-minus-btn">X</button>
+                <button class="btn first3-btn" id="percentage-btn">%</button>
+                <button class="btn operators">/</button>
+            </div>
+            <div class="row2" id="rows">
+                <button class="btn" id="numbers">7</button>
+                <button class="btn" id="numbers">8</button>
+                <button class="btn" id="numbers">9</button>
+                <button class="btn operators">*</button>
+            </div>
+            <div class="row3" id="rows">
+                <button class="btn" id="numbers">4</button>
+                <button class="btn" id="numbers">5</button>
+                <button class="btn" id="numbers">6</button>
+                <button class="btn operators">-</button>
+            </div>
+            <div class="row4" id="rows">
+                <button class="btn" id="numbers">1</button>
+                <button class="btn" id="numbers">2</button>
+                <button class="btn" id="numbers">3</button>
+                <button class="btn operators">+</button>
+            </div>
+            <div class="row5" id="rows">
+                <button class="btn" id="btn-0">0</button>
+                <button class="btn" id="numbers">.</button>
+                <button class="btn operators">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
